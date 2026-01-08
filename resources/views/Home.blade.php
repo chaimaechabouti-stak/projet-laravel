@@ -3,6 +3,11 @@
 @section('title', 'Accueil')
 
 @section('content')
-<h1>Bienvenue sur notre site E-commerce</h1>
-<p>Choisissez une catégorie pour voir les produits.</p>
+<div class="text-center">
+    <h1 class="mb-4">Bienvenue sur EcomShop</h1>
+    <p class="lead">Découvrez nos meilleures catégories de produits</p>
+
+    <a href="/produits/hicking" class="btn btn-primary m-2">Hicking</a>
+    <a href="/produits/electromenager" class="btn btn-success m-2">Electroménager</a>
+</div>
 @endsection

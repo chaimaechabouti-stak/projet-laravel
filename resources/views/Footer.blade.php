@@ -1,4 +1,3 @@
-<hr>
-<footer>
-    <p>© 2026 - Site E-commerce Laravel</p>
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    © 2026 - EcomShop | Laravel TP
 </footer>

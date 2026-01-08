@@ -21,7 +21,7 @@ Route::get('/produits/{cat}', function ($cat) {
     } elseif ($cat == 'electromenager') {
         $produits = [
             ["nom" => "Machine à laver", "prix" => 3000, "image" => "machine_lav.jpg"],
-            ["nom" => "Four", "prix" => 1500, "image" => "four.jfif"],
+            ["nom" => "Four", "prix" => 1500, "image" => "four.jpg"],
             ["nom" => "Micro-onde", "prix" => 1000, "image" => "micro_onde.jpg"],
         ];
     }
